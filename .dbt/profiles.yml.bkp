@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      account: vnb87559
+      user: sathishthandari
+      database: raw
+      warehouse: transforming
+      schema: jaffle_shop
+      password: 7412369A@snowflake
